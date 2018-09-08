@@ -1,9 +1,11 @@
 ---
-#
 # defaults file for ansible-role-dbug
-#
 # Where to save all Ansible variables
+#
+# if dbug_host_destination is defined then tasks/main.yml will save a host-local copy of the dumped variables.
 
+dbug_host_destination: "{{ ansible_user_dir }}/dbug.{{ ansible_hostname }}"
 dbug_variables: '/tmp/ansible_variables'
+dbug_flat_mode: yes
 
 #
