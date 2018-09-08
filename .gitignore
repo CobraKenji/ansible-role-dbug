@@ -1,0 +1,4 @@
+*.cfg
+*.retry
+test.sh
+tests/test.sh
