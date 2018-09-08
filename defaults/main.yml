@@ -1,0 +1,9 @@
+---
+#
+# defaults file for ansible-role-dbug
+#
+# Where to save all Ansible variables
+
+dbug_variables: '/tmp/ansible_variables'
+
+#
