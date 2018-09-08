@@ -2,5 +2,7 @@
 # vars file for ansible-role-dbug
 #
 #
-
+dbug_host_destination: "{{ ansible_user_dir }}/dbug.{{ ansible_hostname }}"
+dbug_variables: '/tmp/ansible-dbug'
+dbug_flat_mode: yes
 #
